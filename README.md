@@ -1,4 +1,4 @@
-# Amazon Job Finder - Python Web Scraping Automation
+# Job Finder - Python Web Scraping Automation
 
 **Technologies Used:**  
 - Python  
@@ -7,7 +7,7 @@
 - Email Automation  
 - .env for Configuration Management  
 
-This project automates the process of finding available job openings on Amazon's career website using **Python**, **Selenium** to send email notifications whenever new positions are posted.
+This project automates the process of finding available job openings on any career website using **Python**, **Selenium** to send email notifications whenever new positions are posted.
 
 ---
 
@@ -15,7 +15,7 @@ This project automates the process of finding available job openings on Amazon's
 
 This Python script performs automated job search on **Amazon's career portal** by continuously monitoring job listings for new opportunities. The main tasks are:
 
-- **Web Scraping**: Using **Selenium** to interact with the Amazon job search page.
+- **Web Scraping**: Using **Selenium** to interact with the job search page.
 - **Job Monitoring**: Checking if jobs are available based on specific search criteria.
 - **Email Notifications**: Sending automatic email alerts when a job listing is found.
 - **Headless Browser**: Running the script in the background with **headless Chrome** (without a visible browser interface).
@@ -26,7 +26,7 @@ This project is perfect for showcasing automation skills, web scraping technique
 
 ## 🔧 Key Features
 
-- **Automated Web Scraping**: Interacts with Amazon’s job listing page to check availability.
+- **Automated Web Scraping**: Interacts with job listing page to check availability.
 - **Headless Browsing**: The script runs silently in the background without opening a browser window.
 - **Real-time Job Monitoring**: Continuously checks for job openings matching specific criteria.
 - **Email Alerts**: Notifies you when a new job is found through automated email notifications.
@@ -43,7 +43,7 @@ This project is perfect for showcasing automation skills, web scraping technique
 - **Sleep Intervals**: Integrated `sleep` for timed delays between requests to avoid overloading the server and mimic human browsing behavior.
 
 ### **Selenium WebDriver**
-- **Web Scraping**: Leveraged **Selenium** to interact with the DOM of the Amazon job search page. Extracted data dynamically from elements like job status and applied XPath selectors.
+- **Web Scraping**: Leveraged **Selenium** to interact with the DOM of the job search page. Extracted data dynamically from elements like job status and applied XPath selectors.
 - **Headless Mode**: Configured **headless Chrome** for running the script in the background without opening a browser window.
 - **XPath Selectors**: Used XPath to precisely identify and extract job status elements from the webpage.
 
@@ -62,7 +62,7 @@ This project is perfect for showcasing automation skills, web scraping technique
    The script relies on the `.env` file to configure email credentials, browser driver path.
 
 2. **Headless Browsing**:  
-   The **Selenium WebDriver** opens Amazon's job search page in **headless mode** (invisible browser).
+   The **Selenium WebDriver** opens job search page in **headless mode** (invisible browser).
 
 3. **Job Search Automation**:  
    It continuously monitors job availability by checking for the “Sorry, no jobs available” message. When a job is found, an email is sent.
@@ -86,8 +86,8 @@ To run this project locally:
 - **Mailtrap**
 
 ### 1. Clone the Repository:
-`git clone https://github.com/yourusername/amazon-job-finder.git`  
-`cd amazon-job-finder`
+`git clone https://github.com/yourusername/job-finder.git`  
+`cd job-finder`
 
 ### 2. Install Dependencies:
 `pip install -r requirements.txt`
