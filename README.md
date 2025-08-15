@@ -13,7 +13,7 @@ This project automates the process of finding available job openings on any care
 
 ## 🚀 Project Overview
 
-This Python script performs automated job search on **Amazon's career portal** by continuously monitoring job listings for new opportunities. The main tasks are:
+This Python script performs automated job search on **career portal** by continuously monitoring job listings for new opportunities. The main tasks are:
 
 - **Web Scraping**: Using **Selenium** to interact with the job search page.
 - **Job Monitoring**: Checking if jobs are available based on specific search criteria.
@@ -128,4 +128,4 @@ For questions or feedback, feel free to reach out:
 
 ---
 
-Thank you for checking out the **Amazon Job Finder**! I hope it helps streamline your job search process, and feel free to contribute to this open-source project!
+Thank you for checking out the **Job Finder**! I hope it helps streamline your job search process, and feel free to contribute to this open-source project!
